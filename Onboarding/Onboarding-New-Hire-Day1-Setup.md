@@ -98,7 +98,7 @@ Send confirmation that:
 - User is Day 1 ready
 
 ## Expected Outcome
-New hire can log in, access required systems, communicate with their team, and begin work without delays.
+New Hire can log in, access required systems, communicate with their team, and begin work without delays.
 
 ## Escalation
 Escalate to:
