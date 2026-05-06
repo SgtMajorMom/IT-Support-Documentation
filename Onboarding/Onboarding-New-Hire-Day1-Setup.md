@@ -40,12 +40,43 @@ Assign licenses for:
 - Zoho / Jira / Confluence
 - Any role-specific tools
 
-### 5. Prepare Device
-For macOS + Kandji:
-- Assign device to user in MDM
-- Trigger automated enrollment
-- Verify profiles and blueprints applied
-- Confirm required apps installed
+### 5. Prepare Device (Intune)
+
+For Windows or macOS devices managed through Microsoft Intune:
+
+- Assign the device to the correct user in Intune
+- Confirm the device is enrolled and compliant
+- Verify required configuration profiles are applied:
+  - Security baselines
+  - Compliance policies
+  - Device restrictions
+  - Endpoint protection settings
+- Confirm required applications are installed:
+  - M365 Apps
+  - Browser (Edge/Chrome)
+  - VPN client (if applicable)
+  - Security agent (Defender for Endpoint)
+- Validate that the device appears in:
+  - Azure AD / Entra ID devices
+  - Intune device list
+  - Compliance dashboard
+
+### 6. Configure MFA (Duo / PingID)
+
+Depending on the organization’s MFA provider:
+
+#### **Duo**
+- Ensure Duo user is created or synced
+- Assign user to correct Duo group/policy
+- Confirm enrollment link is sent
+- Validate successful activation
+
+#### **PingID**
+- Ensure PingID profile is created
+- Assign user to correct authentication policy
+- Confirm first-time enrollment instructions are provided
+- Validate successful activation
+
 
 ### 6. Configure Email & Calendar
 - Verify mailbox creation
