@@ -1,1 +1,24 @@
+# SOP Title
+
+## Purpose
+Brief explanation of why this SOP exists.
+
+## Scope
+Who this applies to (IT, Helpdesk, Identity, etc.).
+
+## Prerequisites
+- Required access  
+- Required tools  
+- Required approvals  
+
+## Procedure
+1. Step one  
+2. Step two  
+3. Step three  
+
+## Validation
+How to confirm the task was completed successfully.
+
+## Notes
+Additional context or future improvements.
 
