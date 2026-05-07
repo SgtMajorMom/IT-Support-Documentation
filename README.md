@@ -73,6 +73,6 @@ Each document includes:
 ## 📌 Coming Soon
 - Identity lifecycle SOPs  
 - SaaS admin KB articles  
-- macOS + Kandji onboarding guides  
+- Onboarding guides  
 - Troubleshooting workflows for common IT issues  
 - Security-adjacent runbooks  
